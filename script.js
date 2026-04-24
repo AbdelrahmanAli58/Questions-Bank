@@ -9,7 +9,8 @@ function shuffleArray(array) {
 
 async function loadAndGenerate() {
     try {
-        const response = await fetch('./questions.json');
+        const response = await fetch('./questions.json?v=' + Date.now());
+
         const data = await response.json();
 
         // Randomize Paragraph
