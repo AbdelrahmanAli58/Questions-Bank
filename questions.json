@@ -1,0 +1,18 @@
+{
+  "paragraphQuestions": [
+    {
+      "paragraph": "Technology is changing the world...",
+      "questions": ["What is the main idea?", "How has it changed?", "Who is affected?"]
+    },
+    {
+      "paragraph": "paragraph 2",
+      "questions": ["question 1?", "question 2?", "question 3?"]
+    }
+  ],
+  "openEndedQuestions": [
+    "Explain the theory of relativity.",
+    "Describe the impact of the industrial revolution.",
+    "What are the benefits of renewable energy?",
+    "How does photosynthesis work?"
+  ]
+}
