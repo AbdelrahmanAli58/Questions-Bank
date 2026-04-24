@@ -16,14 +16,21 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-h1 { text-align: center; color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-h2 { color: #34495e; margin-top: 30px; }
+/* Updated header colors for better contrast with orange */
+h1 { 
+    text-align: center; 
+    color: #444; 
+    border-bottom: 2px solid #eee; 
+    padding-bottom: 10px; 
+}
+
+h2 { color: #555; margin-top: 30px; }
 
 #generate-btn {
     display: block;
     margin: 20px auto;
     padding: 10px 25px;
-    background-color: #3498db;
+    background-color: #f39c12; /* Main Orange */
     color: white;
     border: none;
     border-radius: 5px;
@@ -32,11 +39,13 @@ h2 { color: #34495e; margin-top: 30px; }
     transition: background 0.3s;
 }
 
-#generate-btn:hover { background-color: #2980b9; }
+#generate-btn:hover { 
+    background-color: #e67e22; /* Darker Orange on hover */
+}
 
 .content-box {
     background: #fafafa;
-    border-left: 5px solid #3498db;
+    border-left: 5px solid #f39c12; /* Match the main orange */
     padding: 20px;
     margin-top: 10px;
     border-radius: 4px;
